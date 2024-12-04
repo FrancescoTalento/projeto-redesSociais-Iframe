@@ -29,6 +29,7 @@ section#telefone{
     height: 627px;
     
     background:url(../imagens/frame-iphone.png) no-repeat;
+    background-size: 90%;
 
 }
 
@@ -41,6 +42,7 @@ iframe#tela{
    width: 269px;
    height: 473px;
 }
+
 
 section#redes_sociais{
     display: flex;
@@ -66,4 +68,14 @@ section#redes_sociais img:hover{
     position: relative;
     transform: translate(-3px,-3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.606);
+}
+
+@media screen and (max-width:430px) {
+    iframe#tela {
+            position: relative;
+            top: 72px;
+            left: 20px;
+            width: 242px;
+            height: 424px;
+        }
 }
