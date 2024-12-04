@@ -29,7 +29,6 @@ section#telefone{
     height: 627px;
     
     background:url(../imagens/frame-iphone.png) no-repeat;
-    background-size: 90%;
 
 }
 
@@ -71,6 +70,10 @@ section#redes_sociais img:hover{
 }
 
 @media screen and (max-width:430px) {
+    section#telefone{
+        background-size: 90%;
+    }
+    
     iframe#tela {
             position: relative;
             top: 72px;
